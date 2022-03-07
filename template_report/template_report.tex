@@ -1,0 +1,153 @@
+\documentclass[UTF8, a4paper]{ctexart}
+
+%%%%%%%%%% 导入宏包 %%%%%%%%%%
+\usepackage{amsmath}    % 数学公式
+\usepackage{xcolor}     % 颜色
+\usepackage{graphicx}   % 图片
+\usepackage{geometry}   % 页边距
+\usepackage{fancyhdr}   % 页眉页脚
+\usepackage{setspace}   % 行间距
+\usepackage{multicol}   % 多栏排版
+\usepackage{lmodern}    % 字体
+\usepackage{listings}	% 代码
+\usepackage{enumerate}  % 编号
+\usepackage[hidelinks]{hyperref}   % 超链接
+% \usepackage{cite}
+% \usepackage{url}
+% \usepackage{caption2}
+
+%%%%%%%%%% 设置全局环境 %%%%%%%%%%
+% 设置页边距
+\geometry{vmargin=2.6cm, hmargin=2.45cm}
+% 设置1.5倍行距
+\onehalfspacing
+% 设置页眉宽度
+\setlength{\headheight}{13pt}
+% 设置页眉页脚内容
+\pagestyle{fancy}
+\fancyhead[C]{胡天扬~~~~3190105708}
+\fancyfoot[C]{\thepage}
+
+%%%%%%%%%% 自定义命令 %%%%%%%%%%
+% 使文献引用以上标形式显示
+\newcommand{\supercite}[1]{\textsuperscript{\cite{#1}}}
+% 使section中的图、表、公式编号以A-B的形式显示
+% \renewcommand{\thetable}{\arabic{section}-\arabic{table}}
+% \renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
+% \renewcommand{\theequation}{\arabic{section}-\arabic{equation}}
+% 使图注、表注与编号之间的分隔符缺省，默认是冒号:
+% \renewcommand{\captionlabeldelim}{~}
+
+%%%%%%%%%% 内容 %%%%%%%%%%
+\begin{document}
+
+%================= 封面  ======================
+\begin{center}
+    \ \\[80pt]
+	\includegraphics[scale=0.8]{logo.png}\\[80pt]
+	{\bfseries{\large 本科实验报告}}\\[50pt]
+	\begin{tabular}{cl}
+		实验名称:& \\
+		\cline{2-2}\\
+		姓~~~~~~名:& 胡天扬\\
+		\cline{2-2}\\
+		学~~~~~~号:& 3190105708\\
+		\cline{2-2}\\
+		专~~~~~~业:& 自动化（控制）\\
+		\cline{2-2}\\
+		指导老师:& \\
+		\cline{2-2}\\
+		日~~~~~~期：\\
+		\cline{2-2}\\
+	\end{tabular}
+\end{center}
+
+
+%================= 目录  ======================
+\newpage
+\ \\[50pt]
+\tableofcontents    % 需编译两次
+\newpage
+
+%================= 正文  ======================
+\section{Section 1} \label{sec1}
+% Sec 1
+\subsection{Subsection 1.1}
+Subsec 1.1  \footnote{第一种脚注方式}
+\subsubsection{Subsubsection 1.1.1}
+Subsubsec 1.1.1 \footnotemark
+\footnotetext{第二种脚注方式}
+\marginpar[]{边注}
+
+% 公式
+\paragraph{公式}~{}\\
+行内公式：$a+b=c$\\
+行间公式：
+\begin{equation}
+    \label{pi}
+    \pi=3.14 \tag{1} 
+\end{equation}
+引用公式 \eqref{pi}
+
+% 表格
+\paragraph{表格}~{}
+\begin{table}[!htbp]
+    \caption{表格}
+    \centering
+    \begin{tabular}{|l|c|r|}    % 左中右对齐
+        \hline
+        left & center & right \\
+        l & c & r\\
+        \hline
+    \end{tabular}
+\end{table}
+
+% 图片
+\paragraph{图片}~{}
+\begin{figure}[!htbp]
+    \centering  % 居中
+    \begin{minipage}{10em}
+        \centering
+        % \includegraphics[scale=1]{}
+        \caption{fig1}    
+    \end{minipage}
+\end{figure}
+
+% 枚举
+\paragraph{枚举}
+\begin{enumerate}[(1)]   % 自动编号
+    \item An item.
+    \begin{itemize} % 不编号
+        \item A nested item.
+        \begin{description} % 加粗
+            \item[Description] Bold. 
+        \end{description}
+    \end{itemize}
+\end{enumerate}
+
+% 超链接
+% \href{<url>}{<text>}
+
+% 插入代码
+\paragraph{代码}
+\begin{lstlisting}[language=C++]
+    #include <iostream>
+    int main()
+    {
+        std::cout << "coding" << std::endl;
+    }
+\end{lstlisting}
+
+% 文献引用
+\paragraph{文献引用}~{}\\
+文献引用
+\cite{引用}
+\begin{thebibliography}{}
+    \bibitem{引用} 文献引用
+\end{thebibliography}
+
+%================= 参考文献  ======================
+
+\end{document}
+
+
