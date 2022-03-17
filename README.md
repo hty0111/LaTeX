@@ -245,6 +245,6 @@ su\-per\-cal\-i\-frag\-i\-lis\-tic	% 在指定位置断词
 ### 其他常用命令
 
 ```latex
-textcount <file>	% 统计字数
+texcount <file>	% 统计字数
 ```
 
