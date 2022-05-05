@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.2.20)  16 MAR 2022 08:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.2.20)  5 MAY 2022 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1581,32 +1581,34 @@ LaTeX Info: Redefining \nameref on input line 42.
 
 File: logo.png Graphic file (type bmp)
 <logo.png>
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 49.
+File: LOGO.jpg Graphic file (type bmp)
+<LOGO.jpg>
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 50.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 49.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 50.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 50.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 49.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 50.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.53937> on input line 49.
+(Font)              <10.53937> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 49.
+(Font)              <5> on input line 50.
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
@@ -1615,10 +1617,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \openout4 = `template_report.toc'.
 
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.53937> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line 72.
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line 73.
  [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.52812> on input line 77.
+(Font)              <7.52812> on input line 78.
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1626,20 +1628,20 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./template_report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 152.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 153.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 29780 strings out of 493007
- 572318 string characters out of 6136719
- 655099 words of memory out of 5000000
- 33477 multiletter control sequences out of 15000+600000
- 545517 words of font info for 58 fonts, out of 8000000 for 9000
+ 29782 strings out of 493007
+ 572268 string characters out of 6136719
+ 655147 words of memory out of 5000000
+ 33478 multiletter control sequences out of 15000+600000
+ 545509 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,11n,74p,10457b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
 
