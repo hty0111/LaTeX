@@ -94,6 +94,8 @@ Subsubsec 1.1.1 \footnotemark
 % 表格
 \paragraph{表格}~{}
 \begin{table}[!htbp]
+    \setlength{\abovecaptionskip}{0cm}      %段前
+    \setlength{\belowcaptionskip}{0.2cm}    %段后
     \caption{表格}
     \centering
     \begin{tabular}{|l|c|r|}    % 左中右对齐
@@ -118,6 +120,7 @@ Subsubsec 1.1.1 \footnotemark
 % 枚举
 \paragraph{枚举}
 \begin{enumerate}[(1)]   % 自动编号
+    \setlength{\itemsep}{0pt}
     \item An item.
     \begin{itemize} % 不编号
         \item A nested item.
